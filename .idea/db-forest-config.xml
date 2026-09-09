@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="db-forest-configuration">
+    <data version="2">.
+	1:0:1a68f1f1-cfa5-4221-83c6-aec064400fa5:loca
+	5:0:5e8f5bf0-714d-480e-b890-3998a68d573b:stand
+	10:0:ba94545a-6c63-4720-9909-53598cdfafce:prod
+	----------------------------------------
+	2:1:8150787c-a70d-47b7-a3a3-c1ac6525beb3
+	3:1:e8ea6b5c-182c-4cee-b48a-2675f88fda6b
+	4:1:9bb816dc-186d-447e-b3fd-eb307657e9aa
+	6:5:c8abce65-5463-464b-bbba-8faf9dd7951a
+	7:5:b27d93a4-3b2c-43cc-b4fd-7dbd30720014
+	8:5:2167bd2c-a158-45e2-8fcd-8dcd42027be4
+	9:5:736c2fc9-6ed5-4f3e-9523-e5132b5cc507
+	11:10:3fb66afd-923a-4cae-b597-9a30fdb6e8bd
+	12:10:5f99afd9-3f55-4a69-9601-d2bdfbd1a2ab
+		.</data>
+  </component>
+</project>
