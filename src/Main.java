@@ -17,10 +17,6 @@ void main(String[] args) {
 
     Animal animal2 = new Animal("Кузик");
     System.out.println("Животного Марии зовут: " + animal2.getName());
-
-
-//    Cat murzik = new Cat();//объект
-//    murzik.voice();
 }
 
 class Animal {
@@ -56,9 +52,3 @@ class Animal {
     }
 
 }
-
-//class Cat extends Animal {
-//    void voice() {
-//        System.out.println("Мяу мяу мяууууууу");
-//    }
-//}
