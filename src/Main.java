@@ -3,6 +3,7 @@
 void main() {
     Animal animal = new Animal();
     animal.voice();
+    animal.summVoice(3,4);
 
     Cat murzik = new Cat();//объект
     murzik.voice();
@@ -11,6 +12,11 @@ void main() {
 class Animal {
     void voice() {
         System.out.println("Тут будет кричать зверь");
+    }
+
+    void summVoice(int a, int b){
+        int c = a + b;
+        System.out.println("a + b = " + c);
     }
 }
 
