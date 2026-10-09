@@ -4,7 +4,7 @@ void main() {
     Animal animal = new Animal();
     animal.voice();
 
-    Cat murzik = new Cat()//объект
+    Cat murzik = new Cat();//объект
     murzik.voice();
 }
 
