@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+void main(String[] args) {
     Animal animal = new Animal();
     animal.voice();
     animal.summVoice(3, 4);
@@ -13,13 +13,15 @@ void main() {
     int summa = c + d;
     System.out.println("сумма числе обоих котов: " + summa);
 
+    System.out.println(animal.getName());
+
 
     Cat murzik = new Cat();//объект
     murzik.voice();
 }
 
 class Animal {
-    void voice() {
+    void voice() { //void - ни чего не возвращать
         System.out.println("Тут будет кричать зверь");
     }
 
@@ -28,8 +30,12 @@ class Animal {
         System.out.println("a + b = " + c);
     }
 
-    int summ(int a, int b) {
-        return a + b;
+    int summ(int a, int b) { //int тип возвращаемого значения, тут это число
+        return a + b; //вернуть данные и завершить метод
+    }
+
+    String getName(){ // вернуть строку
+        return "я безымянный кот";
     }
 
 }
