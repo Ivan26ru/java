@@ -1,10 +1,12 @@
 void main(String[] args) {
     //    new Animal - создать экземляр класса, то есть объект (рисунок трафарета)
-    Cat cat1 = new Cat("Барсик");
+    Cat cat1 = new Cat("Барсик", 2020);
     System.out.println("Животного зовут: " + cat1.getName());
+    System.out.println("Коту в 2028 году будет: " + cat1.getAgeForCurrentYear(2028));
 
-    Cat cat2 = new Cat("Кузик");
+    Cat cat2 = new Cat("Кузик", 2019);
     System.out.println("Животного зовут: " + cat2.getName());
+    System.out.println("Коту в 2028 году будет: " + cat2.getAgeForCurrentYear(2028));
 }
 
 class Cat { //трафарет
@@ -17,9 +19,15 @@ class Cat { //трафарет
      */
 
     private String name;
+    private int birthdayYear;
 
-    public Cat(String catName) {
+    public Cat(String catName, int birthdayYear) {
         this.name = catName;
+        this.birthdayYear = birthdayYear;
+    }
+
+    int getAgeForCurrentYear(int year) {
+        return year - this.birthdayYear;
     }
 
     void voice() { //void - ни чего не возвращать
