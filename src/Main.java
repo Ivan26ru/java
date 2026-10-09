@@ -1,6 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main(String[] args) {
+    //    new Animal - создать экземляр класса, то есть объект (рисунок трафарета)
     Animal animal = new Animal("Барсик");
     animal.voice();
     animal.summVoice(3, 4);
@@ -19,7 +20,7 @@ void main(String[] args) {
     System.out.println("Животного Марии зовут: " + animal2.getName());
 }
 
-class Animal {
+class Animal { //трафарет
 
     /*
     Метод может вернуть:
@@ -47,7 +48,7 @@ class Animal {
         return a + b; //вернуть данные и завершить метод
     }
 
-    String getName(){ // вернуть строку
+    String getName() { // вернуть строку
         return this.name;
     }
 
