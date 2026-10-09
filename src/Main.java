@@ -41,8 +41,8 @@ class Animal {
 
 }
 
-class Cat extends Animal {
-    void voice() {
-        System.out.println("Мяу мяу мяууууууу");
-    }
-}
+//class Cat extends Animal {
+//    void voice() {
+//        System.out.println("Мяу мяу мяууууууу");
+//    }
+//}
