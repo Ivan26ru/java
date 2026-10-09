@@ -16,8 +16,9 @@ void main(String[] args) {
     System.out.println(animal.getName());
 
 
-    Cat murzik = new Cat();//объект
-    murzik.voice();
+
+//    Cat murzik = new Cat();//объект
+//    murzik.voice();
 }
 
 class Animal {
