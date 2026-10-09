@@ -2,25 +2,25 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main(String[] args) {
     //    new Animal - создать экземляр класса, то есть объект (рисунок трафарета)
-    Animal animal = new Animal("Барсик");
-    animal.voice();
-    animal.summVoice(3, 4);
+    Cat cat = new Cat("Барсик");
+    cat.voice();
+    cat.summVoice(3, 4);
 
-    System.out.println("котик говорит сумма чисел равна: " + animal.summ(3, 4));
-    System.out.println("Котяра кричит новую сумму: " + animal.summ(5, 4));
+    System.out.println("котик говорит сумма чисел равна: " + cat.summ(3, 4));
+    System.out.println("Котяра кричит новую сумму: " + cat.summ(5, 4));
 
-    int c = animal.summ(5, 6);
-    int d = animal.summ(10, 110);
+    int c = cat.summ(5, 6);
+    int d = cat.summ(10, 110);
     int summa = c + d;
     System.out.println("сумма числе обоих котов: " + summa);
-    System.out.println("Я спросил своего животного как его зовут и он ответил: " + animal.getName());
+    System.out.println("Я спросил своего животного как его зовут и он ответил: " + cat.getName());
 
 
-    Animal animal2 = new Animal("Кузик");
-    System.out.println("Животного Марии зовут: " + animal2.getName());
+    Cat cat2 = new Cat("Кузик");
+    System.out.println("Животного Марии зовут: " + cat2.getName());
 }
 
-class Animal { //трафарет
+class Cat { //трафарет
 
     /*
     Метод может вернуть:
@@ -31,7 +31,7 @@ class Animal { //трафарет
 
     private String name;
 
-    public Animal(String catName) {
+    public Cat(String catName) {
         this.name = catName;
     }
 
