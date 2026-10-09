@@ -3,10 +3,19 @@
 void main() {
     Animal animal = new Animal();
     animal.voice();
+
+    Cat murzik = new Cat();
+    murzik.voice();
 }
 
 class Animal {
     void voice() {
         System.out.println("Тут будет кричать зверь");
+    }
+}
+
+class Cat extends Animal{
+    void voice(){
+        System.out.println("Мяу мяу мяууууууу");
     }
 }
