@@ -13,6 +13,7 @@ public class Cat { //трафарет
 
     private String name;
     private int birthdayYear;
+    private String color;
 
     public Cat(String catName, int birthdayYear) {
         this.name = catName;
@@ -34,6 +35,16 @@ public class Cat { //трафарет
 
     public String getName() { // вернуть строку
         return this.name;
+    }
+
+    // Геттер - отдаёт значение приватного поля наружу
+    public String getColor() {
+        return this.color;
+    }
+
+    // Сеттер - меняет значение приватного поля, сам ничего не возвращает (void)
+    public void setColor(String color) {
+        this.color = color;
     }
 
 }

@@ -10,6 +10,10 @@ void main(String[] args) {
     Cat cat4 = new Cat("Пушок", 2025);
     int year = 2028;
 
+    // поле color приватное, поэтому меняем его через сеттер
+    cat1.setColor("рыжий");
+    cat2.setColor("серый");
+
     // Коты одни и те же (application), а показать их можно по-разному (presentation)
 
     System.out.println("=== Подробно ===");

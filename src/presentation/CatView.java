@@ -8,6 +8,7 @@ public class CatView {
 
     public void show(Cat cat, int year) { //void - ничего не возвращать
         System.out.println("Животного зовут: " + cat.getName());
+        System.out.println("Цвет: " + cat.getColor());
         System.out.println("Коту в " + year + " году будет: " + cat.getAgeForCurrentYear(year));
     }
 
